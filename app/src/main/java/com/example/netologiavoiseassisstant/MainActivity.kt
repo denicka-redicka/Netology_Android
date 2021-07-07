@@ -6,7 +6,7 @@ import android.util.Log
 import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
-    val TAG = "MainActivity1"
+    val TAG = "MainActivity"
     override fun onCreate(savedInstanceState: Bundle?) {
         Log.d(TAG, "start of onCreate function")
         super.onCreate(savedInstanceState)
@@ -15,8 +15,8 @@ class MainActivity : AppCompatActivity() {
         val name = "Ivan"
         val surname = "Ivanov"
         var age = 37
-        var height = 172.02
-        val summary = "name: $name surname: $surname age: $age height: $height "
+        var height = 172.2
+        val summary = "name: $name surname: $surname age: $age height: $height"
 
         val output : TextView = findViewById(R.id.output)
         //findViewById<TextView>(R.id.output).text=summary
