@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Нетология</string>
+    <string name="action_stop">Стоп</string>
+    <string name="action_clear">Очистить</string>
+    <string name="request_hint">Что Вы ищите?</string>
+    <string name="error_not_understand">Извините, я не понял, не могли бы повторить?</string>
+    <string name="error_sm_wrong">Что-то пошло не так..</string>
+    <string name="error_voice_recognition_unavailable">Распознование голоса недоступно</string>
+    <string name="error_tts_not_ready">TTS не доступен</string>
+</resources>

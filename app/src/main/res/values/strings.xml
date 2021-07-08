@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">NetologiaVoiseAssisstant</string>
+    <string name="app_name">NetVoise</string>
+    <string name="action_stop">Stop</string>
+    <string name="action_clear">Clear</string>
+    <string name="request_hint">What are you interested in?</string>
+    <string name="error_not_understand">Sorry, I don\'t understand you, can you rephrase?</string>
+    <string name="error_sm_wrong">Something went wrong..</string>
+    <string name="error_voice_recognition_unavailable">Voice recognition unavailable</string>
+    <string name="error_tts_not_ready">TTS is not ready</string>
 </resources>
