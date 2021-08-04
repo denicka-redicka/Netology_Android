@@ -2,13 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.netologiavoiseassisstant">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher_logo_net"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_logo_net_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.NetologiaVoiseAssisstant">
+        android:theme="@style/Theme.NetologiaVoiseAssisstant"
+        android:usesCleartextTraffic="true">
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
